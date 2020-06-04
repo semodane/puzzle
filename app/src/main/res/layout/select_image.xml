@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5px"
+    android:background="#000000"
+    >
+    
+     <!-- 이미지 영역 -->
+    <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:id="@+id/layout_1">
+	    
+	    <LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:background="@drawable/doeun_1"
+	    android:id="@+id/imagelayout_1"/>
+	    
+	     <LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:background="@drawable/doeun_2"
+	    android:id="@+id/imagelayout_2"/>
+	
+	</LinearLayout>
+	
+    <!-- 이미지 영역 -->
+    <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:id="@+id/layout_2">
+	    
+	    <LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:background="@drawable/doeun_3"
+	    android:id="@+id/imagelayout_3"/>
+	    
+	     <LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:background="@drawable/doeun_4"
+	    android:id="@+id/imagelayout_4"/>
+	
+	</LinearLayout>
+	    
+	    
+	    
+</LinearLayout>

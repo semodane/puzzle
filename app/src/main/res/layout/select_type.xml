@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ssss"
+	android:gravity="center"
+    >
+    
+    <!-- 버튼 영역 -->
+    <LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:id="@+id/typebtnlayout">
+	
+		<!-- 버튼 -->
+	    <Button
+		    android:layout_width="300dp"
+		    android:layout_height="60dp"
+		    android:text="3 x 3"
+		    android:id="@+id/btn_3x3" />
+	    <Button
+		    android:layout_width="300dp"
+		    android:layout_height="60dp"
+		    android:text="4 x 4"
+		    android:id="@+id/btn_4x4" />
+	    <Button
+		    android:layout_width="300dp"
+		    android:layout_height="60dp"
+		    android:text="5 x 5"
+		    android:id="@+id/btn_5x5" />
+	
+	
+	
+	</LinearLayout>
+	
+	    
+	    
+</LinearLayout>

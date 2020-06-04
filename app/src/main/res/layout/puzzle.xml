@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <!-- 퍼즐뷰 레이아웃-->
+    <LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:id="@+id/puzzlelayout">
+	    
+	    <!-- 퍼즐뷰 -->
+	    <LinearLayout 
+		    android:orientation="vertical"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_margin="10px"
+		    android:id="@+id/mainlayout"/>
+	</LinearLayout>
+	
+	<!-- 하단 레이아웃 -->
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center_vertical"
+	    android:layout_weight="7"
+	    android:id="@+id/btnlayout">
+	    
+	    <!-- 섞기버튼 -->
+	    <Button
+		    android:layout_width="80dp"
+		    android:layout_height="40dp"
+		    android:text="@string/shuffle"
+		    android:layout_marginLeft="5px"
+		    android:layout_alignParentLeft="true"
+			android:textSize="15dp"
+		    android:id="@+id/btnShuffle" />
+		    
+		<!-- 타이머 -->
+		<TextView
+		 	android:layout_width="80dp"
+		    android:layout_height="40dp"
+		    android:text="0:00"
+		    android:layout_marginRight="5px"
+		    android:layout_alignParentRight="true"
+		    android:textSize="15dp"
+		    android:gravity="center"
+		    android:id="@+id/timer" />
+	
+	</RelativeLayout>
+</LinearLayout>
